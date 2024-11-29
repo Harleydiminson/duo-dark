@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------
+# App
+--------------------------------------------------------------*/
+.App {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu {
+  background-color: aliceblue;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  display: flex;
+  /* height: 60px; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-logo {
+  font-size: 2.5rem;
+  color: lightblue;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------------------------
+# FormList
+--------------------------------------------------------------*/
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  flex-direction: column;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.form input {
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px ;
+  font-size: 1.5rem;
+}
+
+.form button {
+  border: none;
+  background-color: #1B75D0;
+  padding: 10.4px ;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
