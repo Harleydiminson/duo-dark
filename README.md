@@ -12,36 +12,14 @@ Features
 
 - **Responsive Design**: Works seamlessly on desktop and mobile devices.
 
-Installation
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/duo.git
-Navigate to the project directory:
-bash
-Copy code
-cd duo
-Install dependencies:
-bash
-Copy code
-npm install
-Start the application:
-bash
-Copy code
-npm start
-Technologies Used
-Frontend: React.js, CSS
-Backend: Node.js (optional for advanced features)
-State Management: Redux (if applicable)
-
-Contributions
+# Contributions
 
 We welcome contributions! Feel free to submit issues or create pull requests to improve Duo.
 
-License
+# License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ---------------------------------------------------------------------------------------------
 
