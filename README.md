@@ -2,7 +2,7 @@
 
 **Duo** is a simple and effective application designed to help you learn and practice English and German. Whether you are a beginner or an advanced learner, Duo provides tools and exercises to improve your language skills.
 
-Features
+# Features
 
 - **Interactive Learning**: Practice English and German words with interactive exercises.
 
