@@ -3,7 +3,7 @@ import words from "./data/words";
 import generateRandomId from "./utils/generateRandomId";
 
 function FormList() {
-    const [inputWord, setInputWord] = useState(''); // Хранит строку, введенную пользователем
+    const [inputWord, setInputWord] = useState(''); 
     const [isValid, setIsValid] = useState(null)
     const [randomWord, setRandomWord] = useState(words[generateRandomId(words.length)])
     const next = () => {
@@ -12,7 +12,7 @@ function FormList() {
         setInputWord('')
     }
     const compareWords = (e) => {
-        e.preventDefault(); // Предотвращаем обновление страницы
+        e.preventDefault(); 
         setIsValid(randomWord.english === inputWord)
     }
     const borderColor = isValid === null ? 'black' : isValid ? 'green' : 'red'
@@ -25,8 +25,8 @@ function FormList() {
                 <input
                     type="text"
                     placeholder='Enter English word'
-                    value={inputWord} // Cвязываем input c coстоянием
-                    onChange={(e) => setInputWord(e.target.value)} //Обновляем состояние при вводе
+                    value={inputWord} 
+                    onChange={(e) => setInputWord(e.target.value)} 
                     style={{
                         borderColor,
                         borderWidth: borderColor === 'black' ? '2px' : "5px",
