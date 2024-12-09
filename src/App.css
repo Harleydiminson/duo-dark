@@ -15,10 +15,9 @@ ul {
 
 .menu {
   background-color: aliceblue;
-  padding: 10px 30px;
+  /* padding: 2px 30px; */
   font-size: 1.5rem;
   display: flex;
-  /* height: 60px; */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +31,7 @@ ul {
 
 .menu-item {
   cursor: pointer;
-  padding: 10px 10px;
+  padding: 5px 8px;
   border-radius: 8px;
   transition: background-color 0.3s ease-in;
 }
@@ -92,7 +91,7 @@ ul {
 }
 .form .btn-navigate {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   margin-top: 10px;
 }
 

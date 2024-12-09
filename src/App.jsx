@@ -1,5 +1,5 @@
-import FormList from './FormList';
-import Header from './Header';
+import FormList from './components/FormList';
+import Header from './components/Header';
 import './App.css';
 
 function App() {

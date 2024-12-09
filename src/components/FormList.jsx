@@ -1,9 +1,9 @@
 import { useState } from "react";
-import words from "./data/words";
-import generateRandomId from "./utils/generateRandomId";
+import words from "../data/words";
+import generateRandomId from "../utils/generateRandomId";
 
 function FormList() {
-    const [inputWord, setInputWord] = useState(''); 
+    const [inputWord, setInputWord] = useState('');
     const [isValid, setIsValid] = useState(null)
     const [randomWord, setRandomWord] = useState(words[generateRandomId(words.length)])
     const next = () => {
@@ -12,7 +12,7 @@ function FormList() {
         setInputWord('')
     }
     const compareWords = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         setIsValid(randomWord.english === inputWord)
     }
     const borderColor = isValid === null ? 'black' : isValid ? 'green' : 'red'
@@ -25,8 +25,8 @@ function FormList() {
                 <input
                     type="text"
                     placeholder='Enter English word'
-                    value={inputWord} 
-                    onChange={(e) => setInputWord(e.target.value)} 
+                    value={inputWord}
+                    onChange={(e) => setInputWord(e.target.value)}
                     style={{
                         borderColor,
                         borderWidth: borderColor === 'black' ? '2px' : "5px",
@@ -35,12 +35,6 @@ function FormList() {
                 />
                 <button type="submit">Compare</button>
                 <div className="btn-navigate">
-                    <button
-                        type="button"
-                        onClick={() => { }}
-                    >
-                        Back
-                    </button>
                     <button
                         type="button"
                         onClick={next}
