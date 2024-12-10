@@ -15,7 +15,7 @@ ul {
 
 .menu {
   background-color: aliceblue;
-  /* padding: 2px 30px; */
+  padding: 0px 10px 0px 10px;
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
