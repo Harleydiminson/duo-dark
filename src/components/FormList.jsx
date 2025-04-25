@@ -42,6 +42,7 @@ function FormList() {
                         Next
                     </button>
                 </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ad iure incidunt sed nobis soluta, iste suscipit repudiandae natus. Ut.</p>
             </form>
         </div>
     )
